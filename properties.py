@@ -9,13 +9,13 @@ class Properties():
     FRANCE_TIME_OFFSET : timedelta = pytz.timezone("Etc/GMT-2").utcoffset(dt=None)
     
     class Users():
-        ADMIN_ID = 877556326149021717
-        DEV_ID = 877556326149021717
+        ADMIN_ID = paste_corresponding_Ids_here
+        DEV_ID = paste_corresponding_Ids_here
 
     class Roles():
-        MUTE_ROLE_ID : int = 1084065540227727461
-        STAFF_ROLE_ID : int = 1086348343950712832
-        VERIFIED_ROLE_ID : int = 1086350698456813639
+        MUTE_ROLE_ID : int = paste_corresponding_Ids_here
+        STAFF_ROLE_ID : int = paste_corresponding_Ids_here
+        VERIFIED_ROLE_ID : int = paste_corresponding_Ids_here
     
     class FilePaths():
         JSON_WARN_PATH : str = r"data\warns.json"
@@ -25,10 +25,10 @@ class Properties():
         CHANCES_BEFORE_MUTING : int = 3
     
     class Channels():
-        ALERT_CHANNEL_ID : int = 1095696971114750015
-        WELCOME_CHANNEL_ID : int = 1083459294978130010
-        ANNOUNCMENT_CHANNEL_ID : int = 1104809789726412830
-        RULES_CHANNEL_ID : int = 1123241208844656731
+        ALERT_CHANNEL_ID : int = paste_corresponding_Ids_here
+        WELCOME_CHANNEL_ID : int = paste_corresponding_Ids_here
+        ANNOUNCMENT_CHANNEL_ID : int = paste_corresponding_Ids_here
+        RULES_CHANNEL_ID : int = paste_corresponding_Ids_here
     
     class Messages():
         def token_grab_alert_message() -> str:
